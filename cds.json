@@ -1,44 +1,44 @@
 [
     {
-        "title": "New Jersey",
-        "artist": "Bon Jovi",
-        "cover_url": "C",
-        "year_published": 1988,
-        "genre": "D"
+        "title": "Uprising",
+        "artist": "Bob Marley",
+        "cover_url": "https://m.media-amazon.com/images/I/71S2Pz3L+PL._UF1000,1000_QL80_.jpg",
+        "year_published": 1980,
+        "genre": "Reggae"
     },
     {
-        "title": "Live at Wembley 86",
+        "title": "Innuendo",
         "artist": "Queen",
-        "cover_url": "C",
+        "cover_url": "https://m.media-amazon.com/images/I/71qOs18a2EL._UF1000,1000_QL80_.jpg",
         "year_published": 1992,
-        "genre": "D"
+        "genre": "Rock"
     },
     {
-        "title": "A",
-        "artist": "B",
-        "cover_url": "C",
-        "year_published": 0,
-        "genre": "D"
+        "title": "Rastaman Vibration",
+        "artist": "Bob Marley",
+        "cover_url": "https://m.media-amazon.com/images/I/91w4r9CvoZL._UF1000,1000_QL80_.jpg",
+        "year_published": 1976,
+        "genre": "Reggae"
     },
     {
-        "title": "A",
-        "artist": "B",
-        "cover_url": "C",
-        "year_published": 0,
-        "genre": "D"
+        "title": "A kind of magic",
+        "artist": "Queen",
+        "cover_url": "https://m.media-amazon.com/images/I/81HjUfDyeWS._UF1000,1000_QL80_.jpg",
+        "year_published": 1986,
+        "genre": "Rock"
     },
     {
-        "title": "A",
-        "artist": "B",
-        "cover_url": "C",
-        "year_published": 0,
-        "genre": "D"
+        "title": "Musica Cicatrene",
+        "artist": "Mezzosangue",
+        "cover_url": "https://i1.sndcdn.com/artworks-000065197589-wnujep-t1080x1080.jpg",
+        "year_published": 2012,
+        "genre": "Rap"
     },
     {
-        "title": "A",
-        "artist": "B",
-        "cover_url": "C",
-        "year_published": 0,
-        "genre": "D"
+        "title": "Midnite",
+        "artist": "Salmo",
+        "cover_url": "https://m.media-amazon.com/images/I/714EbyXH-GS._UF1000,1000_QL80_.jpg",
+        "year_published": 2013,
+        "genre": "Rap"
     }
 ]
