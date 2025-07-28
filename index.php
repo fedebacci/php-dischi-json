@@ -1,10 +1,13 @@
 <?php
 
+require_once './functions.php';
+
 $json_cds = file_get_contents('./cds.json');
 // var_dump($json_cds);
 
 $cds = json_decode($json_cds, true);
 // var_dump($cds);
+
 
 ?>
 
@@ -35,41 +38,15 @@ $cds = json_decode($json_cds, true);
                     <div class="row g-3">
                         <?php
                             foreach ($cds as $cd) {
+
+                                // todo: Vedere destructuring in php
                                 $title = $cd["title"];
                                 $artist = $cd["artist"];
                                 $year_published = $cd["year_published"];
                                 $cover_url = $cd["cover_url"];
                                 $genre = $cd["genre"];
 
-
-                                $html = "
-                                    <div class='col-12 col-md-4'>
-                                        <div class='card h-100 text-center'>
-                                            <div class='card-header p-0 overflow-hidden'>
-                                                <img class='img-fluid' src='$cover_url' />
-                                            </div>
-
-                                            <div class='card-body'>
-                                                <p>
-                                                    $title
-                                                </p>
-                                                <p>
-                                                    $artist
-                                                </p>
-                                                <p>
-                                                    $year_published
-                                                </p>
-                                                <p>
-                                                    $genre
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                ";
-                                // var_dump($html);
-                                
-                                // echo "<div class='col-12 col-md-4'><div class='card h-100'>$title</div></div>";
-                                echo $html;
+                                echo generate_cd_html($title, $artist, $year_published, $cover_url, $genre);
                             }
                         ?>
                     </div>
