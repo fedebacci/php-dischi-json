@@ -3,11 +3,7 @@
 require_once './functions.php';
 
 $json_cds = file_get_contents('./cds.json');
-// var_dump($json_cds);
-
 $cds = json_decode($json_cds, true);
-// var_dump($cds);
-
 
 ?>
 
@@ -38,7 +34,6 @@ $cds = json_decode($json_cds, true);
                     <div class="row g-3">
                         <?php
                             foreach ($cds as $cd) {
-
                                 // todo: Vedere destructuring in php
                                 $title = $cd["title"];
                                 $artist = $cd["artist"];
@@ -47,8 +42,57 @@ $cds = json_decode($json_cds, true);
                                 $genre = $cd["genre"];
 
                                 echo generate_cd_html($title, $artist, $year_published, $cover_url, $genre);
-                            }
+                            };
                         ?>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Add CD</h3>
+                        </div>
+                        <div class="card-body">
+                            <form action="./server.php" method="POST" class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="title" class="form-label">
+                                        Title
+                                    </label>
+                                    <input class="form-control" name="title" id="title" type="text" required />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="artist" class="form-label">
+                                        Artist
+                                    </label>
+                                    <input class="form-control" name="artist" id="artist" type="text" required />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="cover_url" class="form-label">
+                                        Cover URL
+                                    </label>
+                                    <input class="form-control" name="cover_url" id="cover_url" type="text" required />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="year_published" class="form-label">
+                                        Year Published
+                                    </label>
+                                    <input class="form-control" name="year_published" id="year_published" type="number" required />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="genre" class="form-label">
+                                        Genre
+                                    </label>
+                                    <input class="form-control" name="genre" id="genre" type="text" required />
+                                </div>
+                                <div class="col-md-6">
+                                    <button class="btn btn-primary">
+                                        Add
+                                    </button>
+                                </div>
+
+                                
+
+
+                            </form>
+                        </div>
                     </div>
 
 

@@ -1,7 +1,8 @@
 <?php
+
 function generate_cd_html ($title, $artist, $year_published, $cover_url, $genre) {
     $html = "
-        <div class='col-12 col-md-4'>
+        <div class='col-12 col-md-2'>
             <div class='card h-100 text-center'>
                 <div class='card-header p-0 overflow-hidden'>
                     <img class='img-fluid' src='$cover_url' />
@@ -27,4 +28,5 @@ function generate_cd_html ($title, $artist, $year_published, $cover_url, $genre)
 
     return $html;
 };
+
 ?>
