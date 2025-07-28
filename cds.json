@@ -1,0 +1,44 @@
+[
+    {
+        "title": "New Jersey",
+        "artist": "Bon Jovi",
+        "cover_url": "C",
+        "year_published": 1988,
+        "genre": "D"
+    },
+    {
+        "title": "Live at Wembley 86",
+        "artist": "Queen",
+        "cover_url": "C",
+        "year_published": 1992,
+        "genre": "D"
+    },
+    {
+        "title": "A",
+        "artist": "B",
+        "cover_url": "C",
+        "year_published": 0,
+        "genre": "D"
+    },
+    {
+        "title": "A",
+        "artist": "B",
+        "cover_url": "C",
+        "year_published": 0,
+        "genre": "D"
+    },
+    {
+        "title": "A",
+        "artist": "B",
+        "cover_url": "C",
+        "year_published": 0,
+        "genre": "D"
+    },
+    {
+        "title": "A",
+        "artist": "B",
+        "cover_url": "C",
+        "year_published": 0,
+        "genre": "D"
+    }
+]
