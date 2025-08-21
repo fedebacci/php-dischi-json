@@ -1,1 +1,58 @@
-[{"title":"Uprising","artist":"Bob Marley","cover_url":"https:\/\/m.media-amazon.com\/images\/I\/71S2Pz3L+PL._UF1000,1000_QL80_.jpg","year_published":1980,"genre":"Reggae"},{"title":"Innuendo","artist":"Queen","cover_url":"https:\/\/m.media-amazon.com\/images\/I\/71qOs18a2EL._UF1000,1000_QL80_.jpg","year_published":1992,"genre":"Rock"},{"title":"Rastaman Vibration","artist":"Bob Marley","cover_url":"https:\/\/m.media-amazon.com\/images\/I\/91w4r9CvoZL._UF1000,1000_QL80_.jpg","year_published":1976,"genre":"Reggae"},{"title":"A kind of magic","artist":"Queen","cover_url":"https:\/\/m.media-amazon.com\/images\/I\/81HjUfDyeWS._UF1000,1000_QL80_.jpg","year_published":1986,"genre":"Rock"},{"title":"Musica Cicatrene","artist":"Mezzosangue","cover_url":"https:\/\/i1.sndcdn.com\/artworks-000065197589-wnujep-t1080x1080.jpg","year_published":2012,"genre":"Rap"},{"title":"Midnite","artist":"Salmo","cover_url":"https:\/\/m.media-amazon.com\/images\/I\/714EbyXH-GS._UF1000,1000_QL80_.jpg","year_published":2013,"genre":"Rap"},{"title":"Test","artist":"Fede","year_published":"2025","cover_url":"https:\/\/www.runningin.info\/wp-content\/uploads\/2018\/07\/no-image.jpg","genre":"Test"},{"title":"Test 2","artist":"Fede","year_published":"2025","cover_url":"https:\/\/www.runningin.info\/wp-content\/uploads\/2018\/07\/no-image.jpg","genre":"Test"}]
+[
+  {
+    "title": "Uprising",
+    "artist": "Bob Marley",
+    "cover_url": "https://m.media-amazon.com/images/I/71S2Pz3L+PL._UF1000,1000_QL80_.jpg",
+    "year_published": 1980,
+    "genre": "Reggae"
+  },
+  {
+    "title": "Innuendo",
+    "artist": "Queen",
+    "cover_url": "https://m.media-amazon.com/images/I/71qOs18a2EL._UF1000,1000_QL80_.jpg",
+    "year_published": 1992,
+    "genre": "Rock"
+  },
+  {
+    "title": "Rastaman Vibration",
+    "artist": "Bob Marley",
+    "cover_url": "https://m.media-amazon.com/images/I/91w4r9CvoZL._UF1000,1000_QL80_.jpg",
+    "year_published": 1976,
+    "genre": "Reggae"
+  },
+  {
+    "title": "A kind of magic",
+    "artist": "Queen",
+    "cover_url": "https://m.media-amazon.com/images/I/81HjUfDyeWS._UF1000,1000_QL80_.jpg",
+    "year_published": 1986,
+    "genre": "Rock"
+  },
+  {
+    "title": "Musica Cicatrene",
+    "artist": "Mezzosangue",
+    "cover_url": "https://i1.sndcdn.com/artworks-000065197589-wnujep-t1080x1080.jpg",
+    "year_published": 2012,
+    "genre": "Rap"
+  },
+  {
+    "title": "Midnite",
+    "artist": "Salmo",
+    "cover_url": "https://m.media-amazon.com/images/I/714EbyXH-GS._UF1000,1000_QL80_.jpg",
+    "year_published": 2013,
+    "genre": "Rap"
+  },
+  {
+    "title": "Test",
+    "artist": "Fede",
+    "year_published": "2025",
+    "cover_url": "https://www.runningin.info/wp-content/uploads/2018/07/no-image.jpg",
+    "genre": "Test"
+  },
+  {
+    "title": "Test 2",
+    "artist": "Fede",
+    "year_published": "2025",
+    "cover_url": "https://www.runningin.info/wp-content/uploads/2018/07/no-image.jpg",
+    "genre": "Test"
+  }
+]
